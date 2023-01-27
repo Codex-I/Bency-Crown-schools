@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'varela Round', sans-serif;
+}
+
+.hro-cont {
+    background-image: linear-gradient( rgba(26, 25, 25, 0.63), rgba(54, 52, 52, 0.582) ), url('images/schoolgirl1.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-two {
+    background-image: linear-gradient( rgba(150, 148, 148, 0.63), rgba(211, 205, 205, 0.582) ), url('./images/toddlerback.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.offers {
+    background-image: url('./images/5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.offerhro {
+    color: rgb(23, 177, 204)!important;
+}
+
+.offers p, .activy {
+    font-size: 14px!important;
+}
+
+.bency {
+   color: rgb(17, 107, 180)!important;  
+   font-weight: 700;
+   font-size: 20px; 
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.months, .pride {
+    font-size: 12px!important;
+}
+
+.png {
+     width: 7rem!important;
+}
+
+.firstlinks:hover {
+    color: rgb(245, 241, 6)!important;
+    outline: 1px solid black;
+    border-radius: 7px;
+    transition: .10s ease;
+    transition-delay: 0.2s;
+    transition-duration: .1s;
+}
+
+.blue-div {
+    border-top: 10px solid rgb(23, 177, 204);
+}
+
+.enroll {
+    font-weight: 600;
+    color: rgb(23, 177, 204);
+}
+button {
+    transition: .10s ease;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+button:hover{
+    background-color: rgb(227, 93, 240)!important;
+    border: none;
+    color: black!important;
+}
+
+.events {
+    background-image:linear-gradient( rgba(26, 25, 25, 0.63), rgba(54, 52, 52, 0.582) ), url('./images/6\ .jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.card-back {
+    background-color: rgb(248, 241, 233);
+}
+
+.admit {
+    background-image: url(./images/8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .two-cards {
+        position: relative!important;
+    }
+
+    .boy {
+        width: 25rem!important;
+    }
+
+    .event {
+         width: 100%!important;
+    }
+
+    .blue-div {
+        width: 88%!important;
+    }
+}
+
+
+  
